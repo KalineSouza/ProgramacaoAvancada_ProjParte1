@@ -1,4 +1,4 @@
-# ProgramacaoAvancada_ProjParteI
+# ProgramacaoAvancada_ProjParte1
 Primeira parte do projeto da Unidade II
 ## DUPLA: 
 * JEREMIAS BEZERRA SOBRINHO 
