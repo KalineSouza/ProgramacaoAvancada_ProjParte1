@@ -19,6 +19,6 @@ int main(){
    // Desenho.cutSphere(0,0,0,0);
     Desenho.putEllipsoid(50,60,50,40,49,30);
     Desenho.cutEllipsoid(47,50,20,27,42,40);
-    Desenho.writeOFF("write.off");
+    Desenho.writeOFF("filename.off");
     return 0;
 }
