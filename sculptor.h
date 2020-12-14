@@ -30,7 +30,7 @@ public:
   void cutSphere(int xcenter, int ycenter, int zcenter, int radius);
   void putEllipsoid(int xcenter, int ycenter, int zcenter, int rx, int ry, int rz);
   void cutEllipsoid(int xcenter, int ycenter, int zcenter, int rx, int ry, int rz);
-  void writeOFF(string filename);
+  void writeOFF(char* filename);
 };
 
 #endif // SCULPTOR_H
