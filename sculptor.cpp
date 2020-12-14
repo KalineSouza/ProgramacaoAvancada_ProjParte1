@@ -153,10 +153,11 @@ void Sculptor::cutEllipsoid(int xcenter, int ycenter, int zcenter, int rx, int r
     }
 }
 
-void Sculptor::writeOFF(string str){
-    cout<<"Entrou\n";
+void Sculptor::writeOFF(char* nome){
+    string str;
     ofstream f_out;
-    f_out.open("filenameOFF.off");
+    f_out.open(nome);
+    cout<<"Entrou\n";
 
     if(! f_out.good())
     {
